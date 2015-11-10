@@ -20,3 +20,7 @@ $lang['doorkeeper-key']      = '(Exemple) l´Application ID de votre application
 $lang['doorkeeper-secret']   = '(Exemple) Le Secret de votre application Doorkeeper.';
 $lang['doorkeeper-authurl']  = '(Exemple) Le Authorization Endpoint URL de votre configuration Doorkeeper.';
 $lang['doorkeeper-tokenurl'] = '(Exemple) Le Access Token Endpoint URL de votre configuration Doorkeeper.';
+$lang['idolcamp-key']      = 'L´Application ID de votre application Idolcamp.';
+$lang['idolcamp-secret']   = 'Le Secret de votre application Idolcamp.';
+$lang['idolcamp-authurl']  = 'Le Authorization Endpoint URL de votre configuration Idolcamp.';
+$lang['idolcamp-tokenurl'] = 'Le Access Token Endpoint URL de votre configuration Idolcamp.';

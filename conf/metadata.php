@@ -39,6 +39,10 @@ $meta['doorkeeper-key']      = array('string');
 $meta['doorkeeper-secret']   = array('string');
 $meta['doorkeeper-authurl']  = array('string');
 $meta['doorkeeper-tokenurl'] = array('string');
+$meta['idolcamp-key']        = array('string');
+$meta['idolcamp-secret']     = array('string');
+$meta['idolcamp-authurl']    = array('string');
+$meta['idolcamp-tokenurl']   = array('string');
 $meta['mailRestriction']     = array('string','_pattern' => '!^(@[^,@]+(\.[^,@]+)+(,|$))*$!'); // https://regex101.com/r/mG4aL5/3
 $meta['singleService']       = array('multichoice',
                                      '_choices' => array(
@@ -47,4 +51,5 @@ $meta['singleService']       = array('multichoice',
                                          'Facebook',
                                          'Github',
                                          'Yahoo',
-                                         'Doorkeeper',));
+                                         'Doorkeeper',
+                                         'Idolcamp'));
